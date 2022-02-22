@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <title>Los Persas Pulidos</title>
+</head>
+<body>
+
+<div id="grillaIndex">
+    <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="./servicios.html">Servicios</a></li>
+            <li><a href="./galeria.html">Galería</a></li>
+            <li><a href="./nosotros.html">Nosotros</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+        </ul>    
+    </nav>
+    <header class="index__header">
+        <h2 class="servicios__h2">Contacto</h2>
+    </header>
+    <aside class="index__aside">
+        <h2 class="index__aside--titulo">Servicios exclusivos a domicilio</h2>
+        <img class="galeria__img" src="../imagenes/lexus-0km.jpeg" alt="Lexus 0km" />
+    </aside>
+    <section class="index__contenido">
+        <h2 class="index__contenido--titulo">Hacenos tu consulta</h2>
+        <form class="contacto__formulario">
+
+            <label class="contacto__formulario--label" for="nombre">Nombre: </label>
+            <input class="contacto__formulario--input" type="text" name="nombre" placeholder="Ingrese aquí su nombre" required /><br>
+            <label class="contacto__formulario--label" for="vehiculo">Vehículo: </label>
+            <input class="contacto__formulario--input" type="text" name="vehiculo" placeholder="Ejemplo: Toyota Corolla" required /><br>
+            <div class="contacto__formulario--opciones">El vehículo es 0km
+            <input type="radio" name="condicion" value="0km" checked/>
+            </div>
+            <div class="contacto__formulario--opciones">El vehículo no es 0km
+            <input type="radio" name="condicion" value="no-0km" /><br>
+            </div>
+            <label class="contacto__formulario--label" for="consulta">Consulta:</label>
+            <textarea class="contacto__formulario--consulta" type="text" name="consulta" placeholder="Escriba aquí su consulta"></textarea>
+            <input class="contacto__formulario--button" type="submit" value="Enviar consulta"/>
+    
+        </form>
+    </section>
+    <footer class="index__footer">
+        <p class="index__footer--parrafo">WhatsApp: 3413458477</p>
+        <p class="index__footer--parrafo">Instagram: lospersaspulidos</p>
+        <p class="index__footer--parrafo">Facebook: Los Persas Pulidos</p>
+        <p class="index__footer--parrafo">Rosario - Santa Fe - Argentina</p>
+    </footer>
+</div>
+</body>
+</html>
