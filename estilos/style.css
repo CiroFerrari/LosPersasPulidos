@@ -69,6 +69,10 @@ ul {
      color: white;
  }
 
+ li:hover {
+     background-color: rgb(54, 54, 54);
+ }
+
 .index__header {
     grid-area: header;
     padding: 50px 50px;
@@ -312,24 +316,18 @@ h1 {
 
     .index__aside--titulo {
         margin: 10px;
-        color: white;
-        border-radius: 5px;
-        width:fit-content;
         font-size: 115%;
     }
     
     .index__iframe {
-        width: 90%;
         height: 17rem;
     }
 
-    .index__contenido {
-        grid-area: contenido;   
+    .index__contenido {   
         margin: 0px 0px 5px;
         }
     
     .index__contenido--titulo {
-        color: white;
         margin:20px 15px 10px;
         font-size: 125%;
         font-weight: bold;
@@ -339,10 +337,8 @@ h1 {
     }
     
     .index__contenido--subtitulo {
-        color: white;
         font-size: 18px;
         margin: 10px 25px 0px;
-        font-weight: bolder;
         width: 90%;
         text-align: start;
     }
@@ -350,17 +346,13 @@ h1 {
     .index__contenido--parrafo {
         margin-top: 10px;
         width: 90%;
-        color: white;
         font-size: 14px;
         background-color: rgba(56, 56, 56, 0);
     }
     
     .index__footer {
         margin: 5px 0px;
-        grid-area: footer;
-        background-color: black;
         width: 100%;
-        height: auto;
         margin-bottom: 0px;
     }
     
@@ -377,8 +369,7 @@ h1 {
     }
     
     .galeria__contenido {
-    margin: 0px;
-    margin-top: -10px
+    margin: -10px 0px 0px 0px;
     }
 }
 
@@ -441,24 +432,18 @@ h1 {
     
     .index__aside--titulo {
         margin: 10px;
-        color: white;
-        border-radius: 5px;
-        width:fit-content;
         font-size: 90%;
     }
     
     .index__iframe {
-        width: 90%;
         height: 10rem;
     }
 
-    .index__contenido {
-        grid-area: contenido;   
+    .index__contenido {   
         margin: 0px 0px 5px;
         }
     
     .index__contenido--titulo {
-        color: white;
         margin:20px 15px 10px;
         font-size: 20px;
         width: 90%;
@@ -467,27 +452,21 @@ h1 {
     }
     
     .index__contenido--subtitulo {
-        color: white;
         font-size: 18px;
         margin: 10px 15px 5px;
-        font-weight: bolder;
         width: 90%;
         text-align: center;
     }
     
     .index__contenido--parrafo {
         width: 90%;
-        color: white;
         font-size: 14px;
         background-color: rgba(56, 56, 56, 0);
     }
     
     .index__footer {
         margin: 0px 0px;
-        grid-area: footer;
-        background-color: black;
         width: 100%;
-        height: auto;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
@@ -497,7 +476,6 @@ h1 {
 
     .index__footer--parrafo {
         margin-left: 25px;
-        text-align: center;
     }
     .servicios__h2 {
         font-size: 175%;
@@ -508,13 +486,11 @@ h1 {
     }
         
     .galeria__contenido {
-    margin: 0px;
-    margin-top: -10px
+    margin: -10px 0px 0px 0px;
     }
 
     .contacto__formulario {
-        margin: 10px;
-        margin-left: 20px;
+        margin: 10px 20px;
     }
 
     .contacto__formulario--button {
